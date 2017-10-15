@@ -1,0 +1,95 @@
+\documentclass[11pt]{article}
+%Gummi|065|=)
+\title{%
+	\textbf{CSSC: Introduction to Programming \\
+	\large Curriculum Overview}}
+\author{Thomas Adriaan Hellinger}
+\date{10/07/2017}
+\usepackage{enumerate}
+\begin{document}
+
+\maketitle
+
+\section*{Introduction - First Course}
+
+I'm not entirely sure how this is going to work, but I believe we should have multiple classes to cover the basics. I'd like to have one initial class that covers all the very basic, basics. I'm thinking that the first class will be a long one, and split into two parts, with a short break in between. The first session will cover the absolute minimal math requirements, a \emph{very} quick history on the development of computing, a simplified review of the key components of modern computers (laptops and PCs, specifically), then an overview of programming languages, concluding with an install of the Python programming language. This should conclude the basic theory portion of the class.
+\\
+\\
+After the break, and we have Python installed on everyone's laptops, we should start covering the basic tools to use. This should include the most basic command line stuff, possibly with Cygwin and/or IPython/Jupyter notebooks too. We should definitely introduce them to a developer text editor, I'd recommend Atom, as it isn't too much of a shock and it's also in the Free Software Directory\footnote{https://directory.fsf.org/wiki/Atom} (although apparently there is Google tracking by default, but we can show folks how to disable it). We should finish the day with showing people the resources needed to learn more and extend their python install. Finally, we should work on a classic "Hello World" program, with a minor twist involving a library like random or os.
+\newpage
+\section*{Introductory Courses - Suggested Curriculum}
+
+SO, this is a very basic suggestion that would need to be elaborated on. Also, the number of sub-sections don't necessarily correlate with the time spent on a particular section.
+
+\begin{enumerate}[I]
+	\item \textbf{Initiation Course}
+	\begin{enumerate}
+		\item Theory Portion
+		\begin{enumerate}
+			\item Minimal Math section
+			\begin{enumerate}
+				\item Simple Algebra - (Computers count from zero, exponents, Please Excuse My Dear Aunt Sally, etc)
+				\item Number systems - (Binary, Octal, Hexadecimal)
+			\end{enumerate}
+			\item History
+			\begin{enumerate}
+				\item Pre-mechanical computers
+				\item Babbage, his machine, and Lovelace, the first programmer
+				\item The analog computers of the war years, Alan Turing and the Turing machine
+				\item ENIAC and the Von Neumann Architecture
+				\item Semi-conductors and the first digital computers
+				\item The development of DARPANet, Bell Labs; Unix and C
+				\item Al Gore invents the Internetz out of a series of tubes 
+			\end{enumerate}
+			\item So WTF is a computer, anyway?
+			\begin{enumerate}
+				\item The motherboard: Key components
+				\item RAM v. ROM: To the Death!
+				\item Video cards, the GPU, and monitors: The things that make you see things
+				\item Peripherals: Keyboards, mieces, and joysticks 
+			\end{enumerate}
+			\item The Big Overview of How a Programming Language Becomes 0's and 1's (Trade offs for each level away from binary code)
+			\begin{enumerate}
+				\item Machine Code - 0's and 1's
+				\item Assembly Language
+				\item C
+				\item C++ and Java
+				\item Interpreted Languages (Python, Ruby, Perl, etc.)
+				\item "Formatting Languages" (HTML, XML, JSON, etc)
+				\item Brief mention of "specialized languages" (R, SQL, LaTeX, etc) ((Maybe)) 
+			\end{enumerate}
+		\end{enumerate}
+		\item Practice Portion
+		\begin{enumerate}
+			\item OMG! A commandline appears! \emph{WHAT DOES IT WANT!?}
+			\begin{enumerate}
+				\item When to use the commandline and why
+				\item Walking the Path (ls/dir, mv, cd, mkdir, rmdir)
+				\item Files/directories and data/executable files; file extensions
+				\item Checking your privilege, digitally speaking
+				\item Quick note on the python 2/3 gap
+				\item Charming the Python (and maybe the IPython? On Jupyter?), and pip for a GREAT JUSTICE 
+			\end{enumerate}
+			\item Let's make us a program
+			\begin{enumerate}
+				\item This is a text editor. It edits text, and text is code.
+				\item Importing stuff, and the magic of using other people's code
+				\item Hello world, here is a random number for you (maybe mated with a dict to determine how you happen to be feeling).
+				\item Make that code dance!
+			\end{enumerate}
+			\item Places to go, things to read and where to find answers
+			\begin{enumerate}
+				\item learnpython.org (in fact we may want to do go through several of the beginner tuts here before making a program)
+				\item stackoverflow.com (because there is a 99.5\% chance that someone has asked whatever you're about to ask. Don't re-ask the wheel)
+				\item docs.python.org (the Fucking Manual for Python to RTFM)
+				\item "Learn Python 3: the Hard Way" by Zed Shaw for those who want to do things the right way 
+			\end{enumerate}
+		\end{enumerate}
+	\end{enumerate}
+\end{enumerate}    
+
+So that's a very basic outline of the first class. We need to flesh this out, of course, and figure out what is important. Certain things might have to be deleted, or added. Right now, it seems that the theory part might be too heavy, and we might want to streamline that. Conversely, this might just be an indication that the practice part is too light and needs to be expanded a bit.
+\\
+\\
+For now, I'm pretty sure that this course can be delivered in under the time required to watch a Lord of the Rings movie in theaters, even with the intermission that those movies desperately needed. I think, anyway (the first part, not the intermission part).
+\end{document}

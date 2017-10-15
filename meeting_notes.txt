@@ -1,0 +1,13 @@
+* Get rid of for history for current cyber struggles (EFF, Free Software Movement, Anonymous)
+    * Look up various struggles
+* Replace Python with JS. Use JS Fiddle
+* Add O.S. to 1. iii
+* Split course into 2
+* Take math portion and distribute into sections iii and iv
+    - Binary into iv. A.
+    - Algebra into iv. E?
+
+Thomas will take iv.
+Derek will make the tutorial
+Zubir will take iii
+
